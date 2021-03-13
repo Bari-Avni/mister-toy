@@ -1,0 +1,90 @@
+.container {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #2c3e50;
+}
+
+nav {
+  padding: 30px;
+}
+
+nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+nav a.router-link-exact-active {
+  color: #42b983;
+}
+
+.btn{
+  margin-inline-start: 10px;
+  text-decoration: none;
+  color: #2d2d2d;
+  font-size:0.9em;
+  border: #2d2d2d 1px solid;
+  border-radius: 2px;
+  background-color: whitesmoke;
+  padding: 2px;
+}
+
+.btn-save{
+  cursor: pointer;
+}
+
+.toy-preview p{
+  padding-right: 20px;
+}
+
+/* HELPERS */
+
+/* FLEX - BASE */
+
+.flex {
+  display: flex;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+/* ALIGNMET/CONTENT */
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+/* FLEX-GROW */
+
+.flex-1 {
+  flex-grow: 1;
+}
+
+.grid {
+  display: grid;
+}
+
+/* LIST */
+
+.clean-list {
+  list-style: none;
+  padding: 0
+}
